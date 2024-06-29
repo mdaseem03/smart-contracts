@@ -9,3 +9,4 @@
 7. [Loops](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Loops.md)
 8. [Mapping](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Mapping.md)
 9. [Array](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Array.md)
+10. 
