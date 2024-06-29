@@ -8,23 +8,37 @@
   ```
   Here, `boo` is a public state variable initialized to `true`.
 
-### 2. uint
+### 2. uint 
+ `uint` stands for unsigned integer. It is a non-negative integer (zero and positive numbers) that doesn't include a sign bit, meaning it cannot represent negative numbers.
+ ```solidity  
+ uint public a = 15;
+```
+`uint8`, `uint16`, `uint32`, `uint64`, `uint128`, `uint256`: These variations specify the number of bits each variable can use to store data. 
 
- `uint` (unsigned integer) stores positive integers including zero.
+For example, `uint8` can store values from 0 to 255 (2^8 - 1), `uint256` can store values from 0 to 2^256 - 1, and so on.
+
+### 3. int 
+`int` stands for signed integer. It can store both positive and negative numbers, including zero.
 ```solidity
-  uint public a = 15;
-  ```
-  Here, `a` is a public state variable of type `uint` initialized to `15`.
+int public b = -30;
+```
 
-### 3. int
+`int8`, `int16`, `int32`, `int64`, `int128`, `int256`: Similar to `uint`, these variations specify the number of bits available to store data. 
 
- `int` stores signed integers, which can be positive or negative numbers. 
-  ```solidity
-  int public b = -30;
-  ```
-  Here, `b` is a public state variable of type `int` initialized to `-30`.
+For example, `int8` can store values from -128 to 127, `int256` can store values from -2^255 to 2^255 - 1.
 
-### 4. address
+### 4. bytes
+ `bytes` is used for storing byte arrays or raw byte data. It is similar to `byte[]` but more optimized for arbitrary-length byte arrays.
+ ```solidity
+bytes1 public bytedata = 0xff;
+```
+ 
+`bytes1`, `bytes2`, `bytes3`, ..., `bytes32`: These variations represent fixed-size byte arrays where the number indicates the number of bytes (not bits). 
+
+For example, `bytes1` can store a single byte (8 bits), `bytes32` can store up to 32 bytes (256 bits).
+
+
+### 5. address
 
  `address` stores a 20-byte Ethereum address. 
   ```solidity
@@ -32,35 +46,10 @@
   ```
   Here, `account` is a public state variable storing the Ethereum address `0x5B38Da6a701c568545dCfcB03FcB875f56beddC4`.
 
-### 5. bytes
-
- `bytes` types are dynamic arrays of bytes, where each byte can hold values from `0x00` to `0xff`. 
-  ```solidity
-  bytes1 public bytedata = 0xff; // stores a single byte, 0xff
-  bytes4 public number = 0x12345678; // stores 4 bytes: [0x12, 0x34, 0x56, 0x78]
-  ```
-  - `bytedata` is a public state variable of type `bytes1` initialized to `0xff`.
-  - `number` is a public state variable of type `bytes4` initialized to `0x12345678`, representing four bytes `[0x12, 0x34, 0x56, 0x78]`.
-
-  These types are useful for working with raw byte data, often used in cryptographic operations or when interfacing with systems that communicate in byte-level format.
-
-### 6. int256
-
-- **Purpose**: `int256` is a specific width signed integer type (256 bits wide).
-- **Examples**: 
-  ```solidity
-  int256 public maximum = type(int256).max; // maximum value that can be stored in int256
-  int256 public minimum = type(int256).min; // minimum value that can be stored in int256
-  ```
-  - `maximum` stores the maximum value that can be represented in `int256`.
-  - `minimum` stores the minimum value that can be represented in `int256`.
-
-  These variables demonstrate the extreme values (`max` and `min`) that can be stored using the `int256` data type in Solidity.
-
-- **Bytes slicing**: In Solidity, you can access individual bytes (`bytes1`, `bytes2`, etc.) from a larger `bytes` variable using indexing (`number[0]`, `number[1]`, etc.). This allows for fine-grained manipulation of byte-level data within smart contracts.
 
 
 
+### Example Code
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
