@@ -6,4 +6,5 @@
 4. [Read and Write State Variables](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/ReadWrite.md)
 5. [Ether and Wei](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/EtherAndWei.md)
 6. [If-Else Conditions](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/IfElse.md)
-7. 
+7. [Loops](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Loops.md)
+8. 
