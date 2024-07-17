@@ -22,7 +22,7 @@
 - [Inheritance](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Inheritance.sol)
 - [Interface](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Interface.sol)
 - [Payable](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Payable.sol)
-- Additionl Topics will be added soon ...
+- Additional Topics will be added soon ...
 
 
 ### Profile Views 
