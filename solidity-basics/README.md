@@ -4,6 +4,25 @@
 ## Table of Contents
 
 - [Hello World](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/HelloWorld.sol)
+- [Data Types](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Datatypes.sol)
+- [Variables](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Variables.sol)
+- [Reading and Writing to a State Variable](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/ReadWrite.sol)
+- [Ether and Wei](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/AboutEther.txt)
+- [If-Else Conditions](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/IfElse.sol)
+- [Looping Statements](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Loops.sol)
+- [Mapping](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Mapping.sol)
+- [Array](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Arrays.sol)
+- [Enumeration](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Enumeration.sol)
+- [Structures](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Struct.sol)
+- [Functions](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Functions.sol)
+- [View and Pure Functions](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/ViewAndPure.sol)
+- [Error](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Errors.sol)
+- [Modifiers](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Modifiers.sol)
+- [Constructors](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Constructors.sol)
+- [Inheritance](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Inheritance.sol)
+- [Interface](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Interface.sol)
+- [Payable](https://github.com/mdaseem03/smart-contracts/blob/main/solidity-basics/Payable.sol)
+- Additionl Topics will be added soon ...
 
 
 ### Profile Views 
